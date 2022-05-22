@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mybackground_gray"
+    tools:context=".Views.OpenCreditCardActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewCreateCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutCreateCreditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/yourCreditCardLabel"
+                android:layout_width="310dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/your_credit_card_title"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/bankNameTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/bank_name_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/yourCreditCardLabel" />
+
+            <EditText
+                android:id="@+id/bankNameEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/bank_name_hint"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bankNameTextViewLabel" />
+
+            <TextView
+                android:id="@+id/cardTypeTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/card_type_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bankNameEditText" />
+
+            <EditText
+                android:id="@+id/cardTypeEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/card_type_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardTypeTextViewLabel" />
+
+            <TextView
+                android:id="@+id/cardNumberTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/card_number_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardTypeEditText" />
+
+            <EditText
+                android:id="@+id/cardNumberEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/card_number_hint"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardNumberTextViewLabel" />
+
+            <TextView
+                android:id="@+id/userNameTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/user_name_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardNumberEditText" />
+
+            <EditText
+                android:id="@+id/userNameEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/user_name_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userNameTextViewLabel" />
+
+            <TextView
+                android:id="@+id/endDateTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/end_date_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userNameEditText" />
+
+            <EditText
+                android:id="@+id/endDateEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/end_date_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/endDateTextViewLabel" />
+
+            <TextView
+                android:id="@+id/CCVTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/ccv_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/endDateEditText" />
+
+            <EditText
+                android:id="@+id/CCVEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/ccv_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CCVTextViewLabel" />
+
+            <TextView
+                android:id="@+id/PINTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/pin_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/CCVEditText" />
+
+            <EditText
+                android:id="@+id/PINEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/pin_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PINTextViewLabel" />
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/myorange_500"
+                android:text="@string/edit_button"
+                android:textStyle="bold"
+                app:cornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/PINEditText" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/myLightGray"
+                android:text="@string/delete_button"
+                android:textStyle="bold"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editButton" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

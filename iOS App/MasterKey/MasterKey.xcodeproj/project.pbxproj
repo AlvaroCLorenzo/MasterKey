@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980044172812AE2B00B86096 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980044162812AE2B00B86096 /* MyProfileViewController.swift */; };
+		981A09F428102E43008BCB3E /* DetailSocialNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981A09F328102E43008BCB3E /* DetailSocialNetworkViewController.swift */; };
+		98383B87280EC2310092D192 /* SocialNetWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B86280EC2310092D192 /* SocialNetWorksViewController.swift */; };
+		98383B89280ED22E0092D192 /* CreateSocialNetWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B88280ED22E0092D192 /* CreateSocialNetWorkViewController.swift */; };
+		98383B8B280ED9C60092D192 /* CreditCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B8A280ED9C60092D192 /* CreditCardsViewController.swift */; };
+		98383B8D280EDD410092D192 /* CreateCreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B8C280EDD410092D192 /* CreateCreditCardViewController.swift */; };
+		98383B8F280EF5300092D192 /* CryptoWalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B8E280EF5300092D192 /* CryptoWalletsViewController.swift */; };
+		98383B91280EF61C0092D192 /* CreateCryptoWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98383B90280EF61C0092D192 /* CreateCryptoWalletViewController.swift */; };
+		984F7E8A27FC37A000DA69C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7E8927FC37A000DA69C4 /* AppDelegate.swift */; };
+		984F7E8C27FC37A000DA69C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7E8B27FC37A000DA69C4 /* SceneDelegate.swift */; };
+		984F7E8E27FC37A000DA69C4 /* AutoritationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7E8D27FC37A000DA69C4 /* AutoritationViewController.swift */; };
+		984F7E9327FC37A200DA69C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984F7E9227FC37A200DA69C4 /* Assets.xcassets */; };
+		984F7E9627FC37A200DA69C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984F7E9427FC37A200DA69C4 /* LaunchScreen.storyboard */; };
+		984F7E9E27FC39D600DA69C4 /* SecretBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7E9D27FC39D600DA69C4 /* SecretBox.swift */; };
+		984F7EA027FC3A0500DA69C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7E9F27FC3A0500DA69C4 /* User.swift */; };
+		984F7EA227FC3A3200DA69C4 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7EA127FC3A3200DA69C4 /* Accounts.swift */; };
+		984F7EA427FC3FB600DA69C4 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7EA327FC3FB600DA69C4 /* SocialNetwork.swift */; };
+		984F7EA627FC402000DA69C4 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7EA527FC402000DA69C4 /* CreditCard.swift */; };
+		984F7EA827FC40BB00DA69C4 /* CryptoWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7EA727FC40BB00DA69C4 /* CryptoWallet.swift */; };
+		984F7EAB27FC64D500DA69C4 /* SecretFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F7EAA27FC64D500DA69C4 /* SecretFileManager.swift */; };
+		9850E02328115C3C00FF28C1 /* EncrypterDecrypterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9850E02228115C3C00FF28C1 /* EncrypterDecrypterViewController.swift */; };
+		9850E0252811960700FF28C1 /* DetailCryptoWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9850E0242811960700FF28C1 /* DetailCryptoWalletViewController.swift */; };
+		9850E02A2811B4F500FF28C1 /* DetailCreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9850E0292811B4F500FF28C1 /* DetailCreditCardViewController.swift */; };
+		985D118B28196C16006D60A9 /* sha256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D118A28196C16006D60A9 /* sha256.swift */; };
+		985D118D281980AD006D60A9 /* AESEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985D118C281980AD006D60A9 /* AESEncryption.swift */; };
+		98B0A1DB280DC9800025F3AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B0A1DA280DC9800025F3AB /* HomeViewController.swift */; };
+		98DD2B352812173100D265DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DD2B332812173100D265DE /* Main.storyboard */; };
+		98EB222A282264BC00F17FB8 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 98EB2229282264BC00F17FB8 /* IQKeyboardManagerSwift */; };
+		98EB222C2822655800F17FB8 /* SocialNetworks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB222B2822655800F17FB8 /* SocialNetworks.storyboard */; };
+		98EB222E282266A100F17FB8 /* CreditCards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB222D282266A100F17FB8 /* CreditCards.storyboard */; };
+		98EB22302822687800F17FB8 /* CryptoWallets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EB222F2822687800F17FB8 /* CryptoWallets.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		980044162812AE2B00B86096 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		981A09F328102E43008BCB3E /* DetailSocialNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSocialNetworkViewController.swift; sourceTree = "<group>"; };
+		98383B86280EC2310092D192 /* SocialNetWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetWorksViewController.swift; sourceTree = "<group>"; };
+		98383B88280ED22E0092D192 /* CreateSocialNetWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSocialNetWorkViewController.swift; sourceTree = "<group>"; };
+		98383B8A280ED9C60092D192 /* CreditCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsViewController.swift; sourceTree = "<group>"; };
+		98383B8C280EDD410092D192 /* CreateCreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCreditCardViewController.swift; sourceTree = "<group>"; };
+		98383B8E280EF5300092D192 /* CryptoWalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletsViewController.swift; sourceTree = "<group>"; };
+		98383B90280EF61C0092D192 /* CreateCryptoWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCryptoWalletViewController.swift; sourceTree = "<group>"; };
+		984F7E8627FC37A000DA69C4 /* MasterKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		984F7E8927FC37A000DA69C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		984F7E8B27FC37A000DA69C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		984F7E8D27FC37A000DA69C4 /* AutoritationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoritationViewController.swift; sourceTree = "<group>"; };
+		984F7E9227FC37A200DA69C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		984F7E9527FC37A200DA69C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		984F7E9727FC37A200DA69C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984F7E9D27FC39D600DA69C4 /* SecretBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretBox.swift; sourceTree = "<group>"; };
+		984F7E9F27FC3A0500DA69C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		984F7EA127FC3A3200DA69C4 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		984F7EA327FC3FB600DA69C4 /* SocialNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
+		984F7EA527FC402000DA69C4 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		984F7EA727FC40BB00DA69C4 /* CryptoWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWallet.swift; sourceTree = "<group>"; };
+		984F7EAA27FC64D500DA69C4 /* SecretFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretFileManager.swift; sourceTree = "<group>"; };
+		9850E02228115C3C00FF28C1 /* EncrypterDecrypterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncrypterDecrypterViewController.swift; sourceTree = "<group>"; };
+		9850E0242811960700FF28C1 /* DetailCryptoWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCryptoWalletViewController.swift; sourceTree = "<group>"; };
+		9850E0292811B4F500FF28C1 /* DetailCreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCreditCardViewController.swift; sourceTree = "<group>"; };
+		985D118A28196C16006D60A9 /* sha256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sha256.swift; sourceTree = "<group>"; };
+		985D118C281980AD006D60A9 /* AESEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryption.swift; sourceTree = "<group>"; };
+		985D118F2819889B006D60A9 /* MasterKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MasterKey.entitlements; sourceTree = "<group>"; };
+		98B0A1DA280DC9800025F3AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		98DD2B342812173100D265DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98EB222B2822655800F17FB8 /* SocialNetworks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SocialNetworks.storyboard; sourceTree = "<group>"; };
+		98EB222D282266A100F17FB8 /* CreditCards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreditCards.storyboard; sourceTree = "<group>"; };
+		98EB222F2822687800F17FB8 /* CryptoWallets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CryptoWallets.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		984F7E8327FC37A000DA69C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EB222A282264BC00F17FB8 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		984F7E7D27FC37A000DA69C4 = {
+			isa = PBXGroup;
+			children = (
+				984F7E8827FC37A000DA69C4 /* MasterKey */,
+				984F7E8727FC37A000DA69C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		984F7E8727FC37A000DA69C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984F7E8627FC37A000DA69C4 /* MasterKey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984F7E8827FC37A000DA69C4 /* MasterKey */ = {
+			isa = PBXGroup;
+			children = (
+				985D118F2819889B006D60A9 /* MasterKey.entitlements */,
+				984F7EA927FC413C00DA69C4 /* Models */,
+				984F7E8927FC37A000DA69C4 /* AppDelegate.swift */,
+				984F7E8B27FC37A000DA69C4 /* SceneDelegate.swift */,
+				984F7E8D27FC37A000DA69C4 /* AutoritationViewController.swift */,
+				98B0A1DA280DC9800025F3AB /* HomeViewController.swift */,
+				98383B86280EC2310092D192 /* SocialNetWorksViewController.swift */,
+				98383B88280ED22E0092D192 /* CreateSocialNetWorkViewController.swift */,
+				981A09F328102E43008BCB3E /* DetailSocialNetworkViewController.swift */,
+				98383B8A280ED9C60092D192 /* CreditCardsViewController.swift */,
+				98383B8C280EDD410092D192 /* CreateCreditCardViewController.swift */,
+				9850E0292811B4F500FF28C1 /* DetailCreditCardViewController.swift */,
+				98383B8E280EF5300092D192 /* CryptoWalletsViewController.swift */,
+				98383B90280EF61C0092D192 /* CreateCryptoWalletViewController.swift */,
+				9850E0242811960700FF28C1 /* DetailCryptoWalletViewController.swift */,
+				9850E02228115C3C00FF28C1 /* EncrypterDecrypterViewController.swift */,
+				980044162812AE2B00B86096 /* MyProfileViewController.swift */,
+				984F7EAA27FC64D500DA69C4 /* SecretFileManager.swift */,
+				984F7E9227FC37A200DA69C4 /* Assets.xcassets */,
+				98DD2B332812173100D265DE /* Main.storyboard */,
+				98EB222B2822655800F17FB8 /* SocialNetworks.storyboard */,
+				98EB222D282266A100F17FB8 /* CreditCards.storyboard */,
+				98EB222F2822687800F17FB8 /* CryptoWallets.storyboard */,
+				984F7E9427FC37A200DA69C4 /* LaunchScreen.storyboard */,
+				984F7E9727FC37A200DA69C4 /* Info.plist */,
+			);
+			path = MasterKey;
+			sourceTree = "<group>";
+		};
+		984F7EA927FC413C00DA69C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				984F7E9D27FC39D600DA69C4 /* SecretBox.swift */,
+				984F7E9F27FC3A0500DA69C4 /* User.swift */,
+				984F7EA127FC3A3200DA69C4 /* Accounts.swift */,
+				984F7EA327FC3FB600DA69C4 /* SocialNetwork.swift */,
+				984F7EA527FC402000DA69C4 /* CreditCard.swift */,
+				984F7EA727FC40BB00DA69C4 /* CryptoWallet.swift */,
+				985D118A28196C16006D60A9 /* sha256.swift */,
+				985D118C281980AD006D60A9 /* AESEncryption.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		984F7E8527FC37A000DA69C4 /* MasterKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984F7E9A27FC37A200DA69C4 /* Build configuration list for PBXNativeTarget "MasterKey" */;
+			buildPhases = (
+				984F7E8227FC37A000DA69C4 /* Sources */,
+				984F7E8327FC37A000DA69C4 /* Frameworks */,
+				984F7E8427FC37A000DA69C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasterKey;
+			packageProductDependencies = (
+				98EB2229282264BC00F17FB8 /* IQKeyboardManagerSwift */,
+			);
+			productName = MasterKey;
+			productReference = 984F7E8627FC37A000DA69C4 /* MasterKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		984F7E7E27FC37A000DA69C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					984F7E8527FC37A000DA69C4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 984F7E8127FC37A000DA69C4 /* Build configuration list for PBXProject "MasterKey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 984F7E7D27FC37A000DA69C4;
+			packageReferences = (
+				98EB2228282264BC00F17FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 984F7E8727FC37A000DA69C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				984F7E8527FC37A000DA69C4 /* MasterKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984F7E8427FC37A000DA69C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EB222C2822655800F17FB8 /* SocialNetworks.storyboard in Resources */,
+				98DD2B352812173100D265DE /* Main.storyboard in Resources */,
+				98EB222E282266A100F17FB8 /* CreditCards.storyboard in Resources */,
+				984F7E9627FC37A200DA69C4 /* LaunchScreen.storyboard in Resources */,
+				98EB22302822687800F17FB8 /* CryptoWallets.storyboard in Resources */,
+				984F7E9327FC37A200DA69C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984F7E8227FC37A000DA69C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985D118B28196C16006D60A9 /* sha256.swift in Sources */,
+				98383B87280EC2310092D192 /* SocialNetWorksViewController.swift in Sources */,
+				9850E0252811960700FF28C1 /* DetailCryptoWalletViewController.swift in Sources */,
+				9850E02328115C3C00FF28C1 /* EncrypterDecrypterViewController.swift in Sources */,
+				98B0A1DB280DC9800025F3AB /* HomeViewController.swift in Sources */,
+				980044172812AE2B00B86096 /* MyProfileViewController.swift in Sources */,
+				9850E02A2811B4F500FF28C1 /* DetailCreditCardViewController.swift in Sources */,
+				98383B89280ED22E0092D192 /* CreateSocialNetWorkViewController.swift in Sources */,
+				984F7EA827FC40BB00DA69C4 /* CryptoWallet.swift in Sources */,
+				98383B8B280ED9C60092D192 /* CreditCardsViewController.swift in Sources */,
+				981A09F428102E43008BCB3E /* DetailSocialNetworkViewController.swift in Sources */,
+				984F7E8E27FC37A000DA69C4 /* AutoritationViewController.swift in Sources */,
+				984F7E9E27FC39D600DA69C4 /* SecretBox.swift in Sources */,
+				984F7E8A27FC37A000DA69C4 /* AppDelegate.swift in Sources */,
+				98383B8F280EF5300092D192 /* CryptoWalletsViewController.swift in Sources */,
+				984F7EA427FC3FB600DA69C4 /* SocialNetwork.swift in Sources */,
+				98383B91280EF61C0092D192 /* CreateCryptoWalletViewController.swift in Sources */,
+				98383B8D280EDD410092D192 /* CreateCreditCardViewController.swift in Sources */,
+				984F7EAB27FC64D500DA69C4 /* SecretFileManager.swift in Sources */,
+				984F7EA627FC402000DA69C4 /* CreditCard.swift in Sources */,
+				984F7EA027FC3A0500DA69C4 /* User.swift in Sources */,
+				984F7E8C27FC37A000DA69C4 /* SceneDelegate.swift in Sources */,
+				985D118D281980AD006D60A9 /* AESEncryption.swift in Sources */,
+				984F7EA227FC3A3200DA69C4 /* Accounts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		984F7E9427FC37A200DA69C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984F7E9527FC37A200DA69C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		98DD2B332812173100D265DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DD2B342812173100D265DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		984F7E9827FC37A200DA69C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		984F7E9927FC37A200DA69C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		984F7E9B27FC37A200DA69C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MasterKey/MasterKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MasterKey/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need to save your backups when you like";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alvaro.MasterKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		984F7E9C27FC37A200DA69C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = MasterKey/MasterKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MasterKey/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = NO;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need to save your backups when you like";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alvaro.MasterKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		984F7E8127FC37A000DA69C4 /* Build configuration list for PBXProject "MasterKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984F7E9827FC37A200DA69C4 /* Debug */,
+				984F7E9927FC37A200DA69C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984F7E9A27FC37A200DA69C4 /* Build configuration list for PBXNativeTarget "MasterKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984F7E9B27FC37A200DA69C4 /* Debug */,
+				984F7E9C27FC37A200DA69C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98EB2228282264BC00F17FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98EB2229282264BC00F17FB8 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98EB2228282264BC00F17FB8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 984F7E7E27FC37A000DA69C4 /* Project object */;
+}

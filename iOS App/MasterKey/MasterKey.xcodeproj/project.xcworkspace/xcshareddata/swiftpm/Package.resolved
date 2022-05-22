@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": "master",
+          "revision": "09d22c087732b02d4fb594c7bb61502bf7bb2378",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

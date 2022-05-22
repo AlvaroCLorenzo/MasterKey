@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_create_new_credit_card.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_create_new_crypto_wallet.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_create_new_social_network.xml" value="0.2" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_credit_cards.xml" value="0.176" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_crypto_wallets.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_encrypter_decrypter.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.1696969696969697" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_my_profile.xml" value="0.2" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_open_credit_card.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_open_crypto_wallet.xml" value="0.176" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_open_social_network.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_social_networks.xml" value="0.1881578947368421" />
+        <entry key="..\:/Users/LAMECLA/Desktop/MasterKey-AndroidApp/app/src/main/res/layout/activity_your_accounts.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

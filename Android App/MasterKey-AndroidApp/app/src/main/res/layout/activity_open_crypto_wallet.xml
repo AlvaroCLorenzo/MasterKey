@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mybackground_gray"
+    tools:context=".Views.OpenCryptoWalletActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewCreateCryptoWallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutCreateCryptoWallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/yourCryptoWalletLabel"
+                android:layout_width="310dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/your_crypto_wallet_title"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/walletNameTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/wallet_name_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/yourCryptoWalletLabel" />
+
+            <EditText
+                android:id="@+id/walletNameEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/wallet_name_hint"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/walletNameTextViewLabel" />
+
+            <TextView
+                android:id="@+id/walletTypeTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/wallet_type_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/walletNameEditText" />
+
+            <EditText
+                android:id="@+id/walletTypeEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/wallet_type_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/walletTypeTextViewLabel" />
+
+            <TextView
+                android:id="@+id/emailAsociatedTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/email_asociated_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/walletTypeEditText" />
+
+            <EditText
+                android:id="@+id/emailAsociatedEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/email_asociated_hint"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailAsociatedTextViewLabel" />
+
+            <TextView
+                android:id="@+id/passwordTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/password_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailAsociatedEditText" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/password_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordTextViewLabel" />
+
+            <TextView
+                android:id="@+id/publicKeyTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/public_key_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+            <EditText
+                android:id="@+id/publicKeyEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/public_key_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/publicKeyTextViewLabel" />
+
+            <TextView
+                android:id="@+id/privateKeyTextViewLabel"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/mygreen_500"
+                android:gravity="center"
+                android:text="@string/private_key_label"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/publicKeyEditText" />
+
+            <EditText
+                android:id="@+id/privateKeyEditText"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/white"
+                android:ems="10"
+                android:hint="@string/private_key_hint"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/privateKeyTextViewLabel" />
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/myorange_500"
+                android:text="@string/edit_button"
+                android:textStyle="bold"
+                app:cornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/privateKeyEditText" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/myLightGray"
+                android:text="@string/delete_button"
+                android:textStyle="bold"
+                app:cornerRadius="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editButton" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

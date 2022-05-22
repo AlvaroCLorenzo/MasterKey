@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">MasterKey</string>
+    <!--MAIN ACTIVITY-->
+    <string name="enter_nickname_login">Enter your Nickname:</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="enter_masterpass_login">Enter your Master Password:</string>
+    <string name="masterpass_hint">Master password</string>
+    <string name="show_password_button_login">SHOW PASSWORD</string>
+    <string name="hide_password_button_login">HIDE PASSWORD</string>
+    <string name="open_button_login">OPEN</string>
+    <string name="company_name">MASTER-KEY © ACL 2022</string>
+    <string name="welcome_user">Welcome </string>
+    <string name="masterkey_new_user_title">MASTER_KEY NEW USER:</string>
+    <string name="masterkey_new_user_message">Welcome to MasterKey App, your best friend in security terms.\n\nMasterKey uses military encription to hide your passwords of your socialnetworks, creditcards and crypto-wallets.\n\nPlease, introduce a Nickname, and a Master Password.\n\nDo not share your app or your credentials with anyone, and your data will be safe.\n\nThe nickname and master password that you choose will be the only two secret words you will have to remember from now on.\n\nIt is our pleasure to improve the security of your data.\n\nMASTER-KEY © ACL 2022</string>
+
+    <!--SEPARATOR LINE-->
+    <string name="separator_line">_____________________________</string>
+
+    <!--YOUR ACCOUNTS ACTIVITY-->
+    <string name="your_secure_accounts_title">Your secure accounts:</string>
+    <string name="social_networks_button">SOCIAL NETWORKS</string>
+    <string name="credit_cards_button">CREDIT CARDS</string>
+    <string name="crypto_wallets_button">CRYPTO WALLETS</string>
+    <string name="encrypter_decrypter_button">ENCRYPTER/DECRYPTER</string>
+    <string name="my_profile_button">MY PROFILE</string>
+    <string name="your_secure_social_networks_toast">Your secure social networks</string>
+    <string name="your_secure_credit_cards_toast">Your secure credit cards</string>
+    <string name="your_secure_crypto_wallets_toast">Your secure crypto wallets</string>
+    <string name="encrypter_decripter_toast">Encrypter/Decrypter</string>
+    <string name="my_profile_toast">My profile</string>
+
+    <!--SOCIAL NETWORKS ACTIVITY-->
+    <string name="your_secure_social_networks_title">Your secure social networks:</string>
+    <string name="your_social_network_toast">Your social network</string>
+    <string name="create_new_to_list">Create a new one and we will store your data securely...</string>
+
+    <!--CREATE SOCIAL NETWORK-->
+    <string name="create_social_network_title">Create a social network:</string>
+    <string name="web_name_label">Web name:</string>
+    <string name="web_name_hint">Web name</string>
+    <string name="url_label">URL:</string>
+    <string name="url_hint">URL</string>
+    <string name="email_label">Email:</string>
+    <string name="email_hint">Email</string>
+    <string name="user_name_label">User name:</string>
+    <string name="user_name_hint">User name</string>
+    <string name="password_label">Password:</string>
+    <string name="password_hint">Password</string>
+    <string name="create_button">CREATE</string>
+    <string name="new_social_network_created">A new social network has been created with success</string>
+    <string name="create_new_social_network_toast">Create a new social network</string>
+
+    <!--OPEN SOCIAL NETWORK-->
+    <string name="your_social_network_title">Your social network:</string>
+    <string name="edit_button">EDIT</string>
+    <string name="delete_button">DELETE</string>
+
+    <!--CREDIT CARDS ACTIVITY-->
+    <string name="your_secure_credit_cards_title">Your secure credit cards:</string>
+    <string name="your_credit_card_toast">Your credit card</string>
+    <string name="social_network_edited_toast">Your social network has been edited with success</string>
+    <string name="social_network_deleted_toast">Your social network has been deleted with success</string>
+
+    <!--CREATE CREDIT CARD-->
+    <string name="create_credit_card_title">Create a credit card:</string>
+    <string name="bank_name_label">Bank name:</string>
+    <string name="bank_name_hint">Bank name</string>
+    <string name="card_type_label">Card type:</string>
+    <string name="card_type_hint">Card type</string>
+    <string name="card_number_label">Card number:</string>
+    <string name="card_number_hint">Card number</string>
+    <string name="end_date_label">End date:</string>
+    <string name="end_date_hint">End date</string>
+    <string name="ccv_label">CCV:</string>
+    <string name="ccv_hint">CCV</string>
+    <string name="pin_label">PIN:</string>
+    <string name="pin_hint">PIN</string>
+    <string name="new_credit_card_created">A new credit card has been created with success</string>
+    <string name="create_new_credit_card_toast">Create a new credit card</string>
+
+    <!--OPEN CREDIT CARD-->
+    <string name="your_credit_card_title">Your credit card:</string>
+    <string name="credit_card_edited_toast">Your credit card has been edited with success</string>
+    <string name="credit_card_deleted_toast">Your credit card has been deleted with success</string>
+
+
+    <!--CRYPTO WALLETS ACTIVITY-->
+    <string name="your_secure_crypto_wallets_title">Your secure crypto wallets:</string>
+    <string name="your_crypto_wallet_toast">Your crypto wallet</string>
+
+    <string name="create_new_button">CREATE NEW</string>
+
+    <!--CREATE CRYPTO WALLET-->
+    <string name="create_crypto_wallet_title">Create a crypto wallet:</string>
+    <string name="wallet_name_label">Wallet name:</string>
+    <string name="wallet_name_hint">Wallet name</string>
+    <string name="wallet_type_label">Wallet type:</string>
+    <string name="wallet_type_hint">Wallet type</string>
+    <string name="email_asociated_label">Email asociated:</string>
+    <string name="email_asociated_hint">Email asociated</string>
+    <string name="public_key_label">Public key (Opcional):</string>
+    <string name="public_key_hint">Public key (Opcional)</string>
+    <string name="private_key_label">Private key (Opcional):</string>
+    <string name="private_key_hint">Private key (Opcional)</string>
+    <string name="new_crypto_wallet_created">A new crypto wallet has been created with success</string>
+    <string name="create_new_crypto_wallet_toast">Create a new crypto wallet</string>
+
+    <!--OPEN CRYPTO WALLET-->
+    <string name="your_crypto_wallet_title">Your crypto wallet:</string>
+    <string name="crypto_wallet_edited_toast">Your crypto wallet has been edited with success</string>
+    <string name="crypto_wallet_deleted_toast">Your crypto wallet has been deleted with success</string>
+
+    <!--ENCRYPTER DECRYPTER ACTIVITY-->
+    <string name="enter_privatekey_encrypter_title">Enter a private key:</string>
+    <string name="privatekey_hint_encrypter">Private key</string>
+    <string name="insert_your_text_encrypter">Insert your text to be encrypted/decrypted:</string>
+    <string name="your_text_encrypted_encrypter">Your text encrypted/decrypted:</string>
+    <string name="encrypt_switch">Encrypt</string>
+    <string name="decrypt_switch">Decrypt</string>
+    <string name="encrypt_decrypt_button">ENCRYPT/DECRYPT</string>
+
+    <!--MY PROFILE ACTIVITY-->
+    <string name="edit_your_nickname_myprofile">Edit your Nickname:</string>
+    <string name="edit_your_masterpass_myprofile">Edit your Master password:</string>
+    <string name="update_profile_button">UPDATE PROFILE</string>
+    <string name="import_a_backup_title">Import a back-up file and update your data:</string>
+    <string name="import_backup_button">IMPORT BACK-UP</string>
+    <string name="export_a_backup_title">Export a back-up file and secure your data:</string>
+    <string name="export_backup_button">EXPORT BACK-UP</string>
+    <string name="choose_file_title">Choose file:</string>
+    <string name="update_profile_succesful_toast">The update of your profile credentials was successful.</string>
+    <string name="import_succesful_toast">The import of your back up was successful. The application must be restarted.</string>
+    <string name="export_succesful_toast">The export of your back up was successful.\nRemember to save it in a safe place or even send it to an encrypted email to keep it in the cloud.</string>
+
+    <!--SECURITY STEP DIALOG-->
+    <string name="security_step_title">SECURITY STEP:</string>
+    <string name="security_step_introduce_pass_message">Introduce your master password:</string>
+    <string name="security_step_introduce_oldpass_message">Introduce your old master password:</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!--ERRORS-->
+    <string name="error_login_failed">ERROR: Nickname or master password are incorrect</string>
+    <string name="error_empty_fields_login">ERROR: The fields can´t be empty. Please, insert your Nickname and your Master password.</string>
+    <string name="error_empty_fields">ERROR: The fields can´t be empty. Please, be sure to complete all the fields.</string>
+    <string name="error_private_key">ERROR: The private key does not match. Please try again.</string>
+    <string name="error_updating">ERROR: An error occurred while updating the profile data. Please try again.</string>
+    <string name="error_exporting">ERROR: An error occurred while exporting the backup file. Please try again.</string>
+    <string name="error_incorrect_backup_file">ERROR: Sorry, the file is not a Master Key back-up or is corrupted.</string>
+    <string name="error_empty_backup_file">ERROR: Sorry, the backup file has no content.</string>
+    <string name="error_no_social_networks_yet">There are no social networks yet, please create a new one to save it safely</string>
+    <string name="error_no_credit_cards_yet">There are no credit cards yet, please create a new one to save it safely</string>
+    <string name="error_no_crypto_wallets_yet">There are no crypto wallets yet, please create a new one to save it safely</string>
+    <string name="error_numerical_fields">ERROR: The fields CCV and PIN must contain numbers and not be empty. Please, be sure to complete all the fields correctly.</string>
+
+</resources>
